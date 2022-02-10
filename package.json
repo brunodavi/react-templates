@@ -1,0 +1,23 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "React template view",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "react",
+    "template",
+    "express"
+  ],
+  "author": "brunodavi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-react-view": "^1.1.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
