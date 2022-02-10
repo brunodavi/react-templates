@@ -13,7 +13,7 @@ app.set('view engine', 'jsx');
 app.engine('jsx', createEngine());
 
 app.get('/', (_req, res) => {
- res.render('index.jsx');
+ res.render('App.jsx');
 });
 
 app.listen(PORT, () => {
